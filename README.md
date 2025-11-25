@@ -10,18 +10,27 @@ Le site est disponible via GitHub Pages :
 
 
 🗂️ Structure du projet
+
 /
 ├── index.html
+
 ├── boutique.html
+
 ├── plante.html
+
 ├── info.html
+
 ├── contact.html
+
 ├── css/
 │   └── style.css
+
 └── images/
+
     ├── logo.png
     ├── plantes/
     └── icones/
+
 
 🎨 Technologies utilisées
 
