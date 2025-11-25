@@ -12,6 +12,7 @@ Le site est disponible via GitHub Pages :
 🗂️ Structure du projet
 
 /
+
 ├── index.html
 ├── boutique.html
 ├── plante.html
