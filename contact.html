@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coco Plante Contact</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+
+        <header>
+                <nav class="navbar">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="Logo Coco Plante">
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li><a href="boutique.html" class="nav-link">Boutique</a></li>
+                        <li><a href="plante.html" class="nav-link">Plantes</a></li>
+                        <li><a href="info.html" class="nav-link">À propos</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+
+        <main class="contact-container">
+            <h2>Envoyez-nous un message</h2>
+
+            <form action="#" method="POST" class="contact-form">
+
+                
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+
+                <label for="email">Votre email :</label>
+                <input type="email" id="email" name="email" required placeholder="exemple@gmail.com">
+
+                
+                <label for="subject">Sujet :</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choisissez un sujet </option>
+                    <option value="info">Demande d'informations</option>
+                    <option value="commande">Problème avec une commande</option>
+                    <option value="autre">Autre</option>
+                </select>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required placeholder="Votre message..." rows="5"></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </main>
+        <footer>
+            <p> Coco plantes - Tous droits réservés sinon direction prison.</p>
+        </footer>
+    </body>
+</html>
